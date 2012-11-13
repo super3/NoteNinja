@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="NoteNinja.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NoteNinja"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}" Height="768" VerticalAlignment="Bottom">
+    	<TextBox HorizontalAlignment="Left" Margin="10,13,0,0" TextWrapping="Wrap" Text="Title" VerticalAlignment="Top" Height="64" Width="1346" FontSize="37.333" TabIndex="0"/>
+    	<RichEditBox HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top" Height="574" Width="1346" TabIndex="1"/>
+    	<Button x:Name="btnRight" Content="Next Page" HorizontalAlignment="Left" Margin="1169,688,0,0" VerticalAlignment="Top" Height="70" Width="187" FontSize="26.667" Background="{x:Null}" TabIndex="4"/>
+    	<Button x:Name="btnLeft" Content="Prev. Page" HorizontalAlignment="Left" Margin="977,688,0,0" VerticalAlignment="Top" Height="70" Width="187" FontSize="26.667"/>
+    	<Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="7,688,0,0" VerticalAlignment="Top" Height="70" Width="187" FontSize="26.667" TabIndex="5"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="249,688,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+
+    </Grid>
+</Page>
